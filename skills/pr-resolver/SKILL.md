@@ -3,14 +3,15 @@ name: pr-resolver
 description: >-
   Automatically resolve PR review comments by fetching unresolved comments,
   applying fixes, pushing, and repeating until all comments are resolved.
-  Enhanced support for codespect-io bot reviews with AI prompt extraction.
+  Works with any codebase, with enhanced support for Laravel and PHP projects.
+  Extracts AI fix prompts from codespect-io bot reviews for precise fixes.
   Use when: resolve pr, fix pr comments, pr-resolver, fix review comments,
-  address pr feedback, resolve review, fix pr, handle review, address comments.
+  address pr feedback, resolve review, fix Laravel PR, handle PHP review.
 metadata:
   author: https://github.com/codespectio
   version: "1.0.0"
   domain: devops
-  triggers: resolve pr, fix pr comments, pr-resolver, fix review, address pr feedback
+  triggers: resolve pr, fix pr comments, pr-resolver, fix review, address pr feedback, Laravel PR, PHP review
   role: task-runner
   scope: implementation
   output-format: code
